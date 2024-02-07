@@ -1,6 +1,6 @@
 ## Descrição
 
-Neste exercício, você irá criar uma página web que exibe uma lista produtos e utilizará CSS para aplicar alguns estilos nessa lista.
+Neste exercício, você irá criar uma página web que exibe uma formulário de "Fale conosco", que é normalmente utilizado para fornecer um meio do cliente entrar em contato com a empresa responsável pelo website.
 
 O objetivo deste exercício é praticar o uso de alguns seletores mais básicos de CSS.
 
@@ -12,12 +12,14 @@ O objetivo deste exercício é praticar o uso de alguns seletores mais básicos 
 
 ## Instruções:
 
- 1. O arquivo **index.html** possui o código da lista
- 1. Usando seletores CSS, aplique os estilos a seguir:
-  - Todos os elementos *h2* devem ter o `font-size` igual a *1.2em*.
-  - Todos os elementos *p* devem ter o `color` igual a *#323334*.
-  - Todos os elementos *p.price* devem ter o `font-weight` igual a *bold*.
-
+ 1. Altere o arquivo **index.html** e crie um formulário de contato que solicita o nome, o e-mail, o assunto e a mensagem do remetente.
+ 2. Adicione campos de entrada de texto para o nome e o e-mail, um campo de texto para o assunto e uma área de texto para a mensagem.
+ 3. Adicione as seguintes restrições utilizando os atributos de validação do HTML5:
+  * Todos os campos devem ser obrigatórios
+  * O campo e-mail deve garantir que o valor informado seja um e-mail válido
+  * A mensagem deve ter no máximo 300 caracteres
+ 4. Adicione um botão de envio ao formulário.
+ 5. Estilize o formulário com CSS para melhorar a aparência.
 
 **Certifique-se de validar seu código HTML usando um validador como o [W3C Markup Validation Service](https://validator.w3.org/), para garantir que seu código esteja sem erros e bem formado**.
 
